@@ -7,9 +7,9 @@ using System.Drawing;
 
 namespace WallJumper
 {
-    class Background
+    class Walls
     {
-        private Bitmap Backpicture { get; set; }
+        private Bitmap Wall { get; set; }
         private float positionx { get; set; }
         private float positiony { get; set; }
     }
