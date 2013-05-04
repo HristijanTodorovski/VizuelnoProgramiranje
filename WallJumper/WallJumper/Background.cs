@@ -9,8 +9,18 @@ namespace WallJumper
 {
     class Background
     {
-        private Bitmap Backpicture { get; set; }
+        public Bitmap Backpicture { get; set; }
         private float positionx { get; set; }
         private float positiony { get; set; }
+
+        public Background()
+        {
+            
+            Backpicture = new Bitmap("C:\\Users\\Hristjan\\Documents\\GitHub\\VizuelnoProgramiranje\\WallJumper\\WallJumper\\Resource\\image\\War.png");
+            positionx = 0;
+            positiony = 0;
+            
+              //  C:\Users\Hristjan\Documents\GitHub\VizuelnoProgramiranje\WallJumper\WallJumper\Resource\image
+        }
     }
 }

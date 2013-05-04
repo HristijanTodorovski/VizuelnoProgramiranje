@@ -9,7 +9,7 @@ namespace WallJumper
 {
     class Enemy
     {
-        private Bitmap Enemy { get; set; }
+        private Bitmap enem { get; set; }
         private float positionx { get; set; }
         private float positiony { get; set; }
     }
