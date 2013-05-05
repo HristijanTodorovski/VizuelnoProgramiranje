@@ -14,5 +14,16 @@ namespace WallJumper
         private bool shield { get; set; }
         private Bitmap JumpMan { get; set; }
 
+
+        public float getX()
+        {
+            return positionx;
+        }
+        public float getY()
+        {
+            return positiony;
+
+        }
+
     }
 }

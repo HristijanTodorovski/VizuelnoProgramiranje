@@ -12,5 +12,15 @@ namespace WallJumper
         private Bitmap Boost { get; set; }
         private float positionx { get; set; }
         private float positiony { get; set; }
+
+        public float getX()
+        {
+            return positionx;
+        }
+        public float getY()
+        {
+            return positiony;
+
+        }
     }
 }

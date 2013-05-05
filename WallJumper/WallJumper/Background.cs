@@ -22,5 +22,15 @@ namespace WallJumper
             
               //  C:\Users\Hristjan\Documents\GitHub\VizuelnoProgramiranje\WallJumper\WallJumper\Resource\image
         }
+
+        public float getX()
+        {
+            return positionx;
+        }
+        public float getY()
+        {
+            return positiony;
+
+        }
     }
 }
