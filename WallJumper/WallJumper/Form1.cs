@@ -33,7 +33,7 @@ namespace WallJumper
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
 
-            Thread.Sleep(10);      
+            Thread.Sleep(5);      
             e.Graphics.Clear(Color.White);
             e.Graphics.DrawImage(zaz.Backpicture, 0, 0);
             e.Graphics.DrawImage(sid.getWall(),sid.getX(),sid.getY());
