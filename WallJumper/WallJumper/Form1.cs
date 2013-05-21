@@ -27,13 +27,14 @@ namespace WallJumper
         public Form1()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
            
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
 
-            Thread.Sleep(5);      
+          //  Thread.Sleep(50);      
             e.Graphics.Clear(Color.White);
             e.Graphics.DrawImage(zaz.Backpicture, 0, 0);
             e.Graphics.DrawImage(sid.getWall(),sid.getX(),sid.getY());
@@ -44,9 +45,14 @@ namespace WallJumper
             sid2.Wallsmove();
             e.Graphics.DrawImage(sid3.getWall(), sid3.getX(), sid3.getY());
             sid3.Wallsmove();
-            this.DoubleBuffered = true;
-            this.Invalidate();
+            
+           // this.Invalidate();
 
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            this.Invalidate();
         }  
     }
 }

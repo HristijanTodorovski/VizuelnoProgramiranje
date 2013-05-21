@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WallJumper.Properties {
+namespace verzijapacman.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace WallJumper.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WallJumper.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("verzijapacman.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,19 +63,9 @@ namespace WallJumper.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Wall {
+        internal static System.Drawing.Bitmap food {
             get {
-                object obj = ResourceManager.GetObject("Wall", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap War {
-            get {
-                object obj = ResourceManager.GetObject("War", resourceCulture);
+                object obj = ResourceManager.GetObject("food", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

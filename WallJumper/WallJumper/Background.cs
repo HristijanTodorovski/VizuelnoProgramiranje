@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using System.Resources;
+using WallJumper.Properties;
 
 namespace WallJumper
 {
@@ -15,8 +17,8 @@ namespace WallJumper
 
         public Background()
         {
-            
-            Backpicture = new Bitmap("C:\\Users\\Hristjan\\Documents\\GitHub\\VizuelnoProgramiranje\\WallJumper\\WallJumper\\Resource\\image\\War.png");
+
+            Backpicture = Resources.War;//new Bitmap("C:\\Users\\Hristjan\\Documents\\GitHub\\VizuelnoProgramiranje\\WallJumper\\WallJumper\\Resource\\image\\War.png");
             positionx = 0;
             positiony = 0;
             

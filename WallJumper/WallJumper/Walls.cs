@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using WallJumper.Properties;
 
 namespace WallJumper
 {
@@ -15,14 +16,16 @@ namespace WallJumper
         private float speed { get; set; }
         public Walls(int x,int y)
         {
-            Wall=new Bitmap("C:\\Users\\Hristjan\\Documents\\GitHub\\VizuelnoProgramiranje\\WallJumper\\WallJumper\\Resource\\image\\Wall.png");
+            Wall = Resources.Wall;
+                //new Bitmap("C:\\Users\\Hristjan\\Documents\\GitHub\\VizuelnoProgramiranje\\WallJumper\\WallJumper\\Resource\\image\\Wall.png");
+
             positionx = x;
             positiony = y;
-            speed = 5;
+            speed = 20;
         }
         public void Wallsmove()
         {
-            if (positiony >= 700) positiony = -700;
+            if (positiony >= 600) positiony = -800;
             else
             {
                 positiony = positiony + speed;

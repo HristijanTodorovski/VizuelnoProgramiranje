@@ -1,4 +1,4 @@
-﻿namespace WallJumper
+﻿namespace verzijapacman
 {
     partial class Form1
     {
@@ -29,33 +29,31 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // timer
+            // timer1
             // 
-            this.timer.Enabled = true;
-            this.timer.Interval = 50;
-            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 250;
+            this.timer1.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(634, 691);
-            this.MaximumSize = new System.Drawing.Size(650, 730);
-            this.MinimumSize = new System.Drawing.Size(650, 730);
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
