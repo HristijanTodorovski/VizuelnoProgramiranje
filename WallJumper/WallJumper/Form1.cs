@@ -22,6 +22,8 @@ namespace WallJumper
         Walls sid1 = new Walls(563, -10);
         Walls sid2 = new Walls(-6, -700);
         Walls sid3 = new Walls(563, -700);
+        mreza m = new mreza();
+       
 
 
         public Form1()
@@ -45,14 +47,26 @@ namespace WallJumper
             sid2.Wallsmove();
             e.Graphics.DrawImage(sid3.getWall(), sid3.getX(), sid3.getY());
             sid3.Wallsmove();
+            e.Graphics.DrawImage(m.slika,m.positionx,m.positiony);
+            m.mrezamove();
+
+
+
             
            // this.Invalidate();
 
         }
 
+
+
         private void timer_Tick(object sender, EventArgs e)
         {
             this.Invalidate();
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            Close();
         }  
     }
 }
