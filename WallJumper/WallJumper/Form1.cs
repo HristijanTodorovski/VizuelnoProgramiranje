@@ -23,6 +23,7 @@ namespace WallJumper
         Walls sid2 = new Walls(-6, -700);
         Walls sid3 = new Walls(563, -700);
         mreza m = new mreza();
+        
        
 
 
@@ -56,6 +57,10 @@ namespace WallJumper
            // this.Invalidate();
 
         }
+        public void newgame()
+        {
+
+        }
 
 
 
@@ -67,6 +72,11 @@ namespace WallJumper
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            newgame();
         }  
     }
 }

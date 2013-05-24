@@ -28,9 +28,13 @@ namespace WallJumper
         }
         public void mrezamove()
         {
-                
-    
-            if (positiony >= 1200) positiony =1200;
+
+
+            if (positiony >= 1200)
+            {
+                positiony = 1200;
+               
+            }
             else
             {
                 positiony = positiony + speed;
