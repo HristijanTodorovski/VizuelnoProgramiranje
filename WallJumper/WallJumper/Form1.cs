@@ -23,9 +23,10 @@ namespace WallJumper
         Walls sid2 = new Walls(-6, -700);
         Walls sid3 = new Walls(563, -700);
         mreza m = new mreza();
+        Jumper jump = new Jumper();
         
        
-
+      
 
         public Form1()
         {
@@ -48,8 +49,13 @@ namespace WallJumper
             sid2.Wallsmove();
             e.Graphics.DrawImage(sid3.getWall(), sid3.getX(), sid3.getY());
             sid3.Wallsmove();
+            jump.trcalevo();
+            e.Graphics.DrawImage(jump.JumpMan, jump.positionx, jump.positiony);
             e.Graphics.DrawImage(m.slika,m.positionx,m.positiony);
             m.mrezamove();
+           
+            
+            
 
 
 
@@ -77,6 +83,19 @@ namespace WallJumper
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             newgame();
+        }
+
+        private void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            // Thread.Sleep(9000);  
+            Score forma = new Score();
+            
+           
+            if (forma.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                
+            }
+              
         }  
     }
 }

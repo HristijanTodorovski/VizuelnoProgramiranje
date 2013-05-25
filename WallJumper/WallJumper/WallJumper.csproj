@@ -80,6 +80,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Properties\DataSources\WallJumper.Properties.Resources.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -107,6 +108,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Scores.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\prvcekor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\rotacija1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\rotacija2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\rotacija3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\tretcekor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\tretcekor2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\vtorcekor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\vtorcekor2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
