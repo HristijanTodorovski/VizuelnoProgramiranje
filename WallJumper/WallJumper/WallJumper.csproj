@@ -46,7 +46,9 @@
   <ItemGroup>
     <Compile Include="Background.cs" />
     <Compile Include="Booster.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Enemy.cs" />
+    <Compile Include="enemy2.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,11 +67,18 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="HELPcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HELPcs.Designer.cs">
+      <DependentUpon>HELPcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Jumper.cs" />
     <Compile Include="mreza.cs" />
     <Compile Include="music.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Res.cs" />
     <Compile Include="Walls.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -79,6 +88,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HELPcs.resx">
+      <DependentUpon>HELPcs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -148,6 +160,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resource\image\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\Enemy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\Isaac_in_All-Stars-Battle-Royale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\Rygar_arcade_enemy_death.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\spaceship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\image\game-over-7984137cdd72912f86dd6d11c5b3c6b5.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -83,6 +83,36 @@ namespace WallJumper.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Enemy {
+            get {
+                object obj = ResourceManager.GetObject("Enemy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap game_over_7984137cdd72912f86dd6d11c5b3c6b5 {
+            get {
+                object obj = ResourceManager.GetObject("game_over_7984137cdd72912f86dd6d11c5b3c6b5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Isaac_in_All_Stars_Battle_Royale {
+            get {
+                object obj = ResourceManager.GetObject("Isaac_in_All_Stars_Battle_Royale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap prvcekor {
             get {
                 object obj = ResourceManager.GetObject("prvcekor", resourceCulture);
@@ -121,11 +151,31 @@ namespace WallJumper.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rygar_arcade_enemy_death {
+            get {
+                object obj = ResourceManager.GetObject("Rygar_arcade_enemy_death", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to asdasfasacasasda.
         /// </summary>
         internal static string Scores {
             get {
                 return ResourceManager.GetString("Scores", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap spaceship {
+            get {
+                object obj = ResourceManager.GetObject("spaceship", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

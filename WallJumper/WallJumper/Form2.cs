@@ -17,6 +17,9 @@ namespace WallJumper
         public Score()
         {
             InitializeComponent();
+            Res k = new Res();
+            textBox1.Text = k.score.ToString();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,8 +34,9 @@ namespace WallJumper
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            String s = Resources.Scores;
-            s += "4";
+            Res k = new Res();
+
+            textBox1.Text = k.score.ToString();
            
         }
 

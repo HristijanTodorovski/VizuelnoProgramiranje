@@ -17,6 +17,7 @@ namespace WallJumper
        public Bitmap JumpMan { get; set; }
        public int faza = 0;
        public int strana = 0;
+       public int radius = 70;
        public Bitmap slika1 = Resources.prvcekor;
        public Bitmap slika2 = Resources.vtorcekor;
        public Bitmap slika3 = Resources.tretcekor;
