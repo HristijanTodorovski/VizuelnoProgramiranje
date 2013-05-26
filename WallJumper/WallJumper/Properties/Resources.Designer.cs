@@ -63,6 +63,16 @@ namespace WallJumper.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2 {
+            get {
+                object obj = ResourceManager.GetObject("_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap black_net_wallpaper {
             get {
                 object obj = ResourceManager.GetObject("black_net_wallpaper", resourceCulture);
@@ -111,7 +121,7 @@ namespace WallJumper.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0.
+        ///   Looks up a localized string similar to asdasfasacasasda.
         /// </summary>
         internal static string Scores {
             get {
@@ -176,6 +186,25 @@ namespace WallJumper.Properties {
             get {
                 object obj = ResourceManager.GetObject("War", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Wwe_motorhead_triple_h_theme__play_the_game_ {
+            get {
+                object obj = ResourceManager.GetObject("Wwe_motorhead_triple_h_theme__play_the_game_", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Wwe_motorhead_triple_h_theme_play_the_game_ {
+            get {
+                return ResourceManager.GetStream("Wwe_motorhead_triple_h_theme_play_the_game_", resourceCulture);
             }
         }
     }

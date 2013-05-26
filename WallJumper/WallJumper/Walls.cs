@@ -17,7 +17,7 @@ namespace WallJumper
         public Walls(int x,int y)
         {
             Wall = Resources.Wall;
-                //new Bitmap("C:\\Users\\Hristjan\\Documents\\GitHub\\VizuelnoProgramiranje\\WallJumper\\WallJumper\\Resource\\image\\Wall.png");
+           
 
             positionx = x;
             positiony = y;
